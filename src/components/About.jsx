@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m a passionate game developer with expertise in Unity and C# for building engaging
+        and interactive games. I specialize in 3D modeling and animation using Blender and 3ds
+        Max, creating high-quality assets that bring game worlds to life. Additionally, I’m
+        proficient in Adobe Premiere Pro for video editing and Adobe Photoshop for designing
+        stunning visuals and textures.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

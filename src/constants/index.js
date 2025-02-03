@@ -3,18 +3,8 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+  blender,
+  unreal,
   meta,
   starbucks,
   tesla,
@@ -22,7 +12,8 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  unity,
+  threedsmax,
 } from "../assets";
 
 export const navLinks = [
@@ -42,75 +33,39 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Game Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Game Visual Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Virtual Scene Creator",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Digital Asset Creator",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Unity",
+    icon: unity,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Unreal Engine",
+    icon: unreal,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Blender",
+    icon: blender,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "3ds max",
+    icon: threedsmax,
   },
 ];
 
@@ -198,63 +153,82 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Elude and Evade",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      `A fun and competitive multiplayer game set in a 3D-modeled version of Cambrian
+      College. Players are divided into two teams of two real players each. The goal is
+      to eliminate the opposing team by using dusters as throwable weapons while
+      strategically hiding behind walls and pillars. Tactical gameplay and team
+      coordination makes the team win.`,
     tags: [
       {
-        name: "react",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Blender",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Street skates",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      `This is a 3D game where the player goes on a skateboard infinitely. Players can
+      collect coins to gain points and boosters to speedup skateboarding. There will be
+      many traps so players need to change sides accordingly. Some traps can only be
+      overcome by using skills like jump or slide with a skateboard.`,
     tags: [
       {
-        name: "react",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Blender",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Escape Shadows",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      `A survival-horror game where you seek refuge in a haunted chapel during a
+      storm. With no weapons, you must use stealth, holy water, salt, and crucifixes to
+      survive vengeful spirits, each with unique behaviors. Navigate hidden passages,
+      solve cryptic puzzles, and manage sanity as hallucinations blur reality.`,
     tags: [
       {
-        name: "nextjs",
+        name: "Unreal Engine",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "3ds max",
         color: "green-text-gradient",
       },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Need to find a name",
+    description:
+      `A college student who accidentally travels to a future version of his campus
+      realising an apocalypse happened. It’s now an abandoned ruin and to escape
+      back to your time, player must solve puzzles, uncover hidden messages and
+      restore power to time-altering machines. Your choices determine whether you
+      escape or stay trapped.`,
+    tags: [
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Unreal Engine",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3ds max",
+        color: "green-text-gradient",
       },
     ],
     image: tripguide,
