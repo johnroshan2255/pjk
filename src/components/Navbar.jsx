@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-12 h-9 object-contain rounded-full' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Prince &nbsp;
-            <span className='sm:block hidden'> | Unity Mastery</span>
+            <span className='sm:block hidden'> | Game Designer</span>
           </p>
         </Link>
 
