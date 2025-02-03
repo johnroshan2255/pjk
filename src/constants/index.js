@@ -5,15 +5,17 @@ import {
   web,
   blender,
   unreal,
-  meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  first,
+  third,
+  fourth,
   unity,
   threedsmax,
+  premierepro,
+  maya,
+  gamemaker,
+  second,
 } from "../assets";
 
 export const navLinks = [
@@ -60,6 +62,10 @@ const technologies = [
     icon: unreal,
   },
   {
+    name: "Game Maker",
+    icon: gamemaker,
+  },
+  {
     name: "Blender",
     icon: blender,
   },
@@ -67,59 +73,41 @@ const technologies = [
     name: "3ds max",
     icon: threedsmax,
   },
+  {
+    name: "Maya",
+    icon: maya,
+  },
+  {
+    name: "premiere pro",
+    icon: premierepro,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "3D modeling",
+    company_name: "Com Global Projects",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating detailed 3D models of buildings, interiors, and landscapes.",
+      "Texturing, lighting, and rendering for high-quality visualizations.",
+      "Architectural design principles and attention to detail.",
+      "Producing realistic visualizations for presentations and project approvals.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Freelancing",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 -Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Modeling and texturing game-ready assets (characters, props, environments).",
+      "Animating and rigging objects for game mechanics.",
+      "Texturing, lighting, and material application for realistic visualization.",
+      "Creating interactive environments and level design elements.",
     ],
   },
 ];
@@ -170,8 +158,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: first,
+    source_code_link: "https://drive.google.com/file/d/1Y7bggslnWunX3Yd79fG3qhw25UauipTs/view?usp=drivesdk",
   },
   {
     name: "Street skates",
@@ -190,8 +178,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: second,
+    source_code_link: "",
   },
   {
     name: "Escape Shadows",
@@ -210,11 +198,11 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: third,
+    source_code_link: "https://drive.google.com/file/d/16SeQCqDtR9G4akjQVTFHHso5Semz5gge/view?usp=drivesdk",
   },
   {
-    name: "Need to find a name",
+    name: "Campus Paradox",
     description:
       `A college student who accidentally travels to a future version of his campus
       realising an apocalypse happened. It’s now an abandoned ruin and to escape
@@ -231,8 +219,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fourth,
+    source_code_link: "https://drive.google.com/file/d/1KqDgX30Q6Si0abmz6gUQOI6WHB1UENiT/view?usp=drivesdk",
   },
 ];
 
